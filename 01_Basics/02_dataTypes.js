@@ -21,5 +21,6 @@ let isLoggedIn = false
 
 // object 
 
-console.log(typeof "vivek");
+console.log(typeof undefined) // undefined
+console.log(typeof null) // object
 
