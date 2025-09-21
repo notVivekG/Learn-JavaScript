@@ -33,6 +33,3 @@ console.log(url.replace('%20', '-'))
 
 const ingamename = "vivek.123"
 console.log(ingamename.split('.'))
-
-
-
