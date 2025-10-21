@@ -36,7 +36,7 @@ buttons.forEach( function(button){
 
 ```
 
-# Project 1
+# Project 2
 
 ```javascript
 // this usecase will give you empty value
@@ -71,3 +71,13 @@ form.addEventListener('submit', function(e){
 });
 
 ```
+# Project 3
+
+```javascript
+const clock = document.getElementById('clock');
+
+setInterval(function () {
+  let date = new Date();
+  clock.innerHTML = date.toLocaleTimeString();
+} , 1000);
+
